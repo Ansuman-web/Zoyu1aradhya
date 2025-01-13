@@ -7,11 +7,15 @@ import httpx
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 start_txt = """
-ॐ 
-भूर्भुवः
-स्वः तत्सवितुर्वरेण्यं 
-भर्गो देवस्य धीमहि 
-धियो यो नः प्रचोदयात्
+✰ 𝗪ᴇʟᴄᴏᴍᴇ ᴛᴏ 𝗥ᴇᴘᴏs ✰
+ 
+✰ 𝗥ᴇᴘᴏ ᴛᴏ 𝗡ʜɪ 𝗠ɪʟᴇɢᴀ 𝗬ʜᴀ
+ 
+✰ 𝗣ᴀʜʟᴇ 𝗣ᴀᴘᴀ 𝗕ᴏʟ 𝗥ᴇᴘᴏ 𝗢ᴡɴᴇʀ ᴋᴏ 
+
+✰ || @unbornedvillian ||
+ 
+✰ 𝗥ᴜɴ 24x7 𝗟ᴀɢ 𝗙ʀᴇᴇ 𝗪ɪᴛʜᴏᴜᴛ 𝗦ᴛᴏᴘ
  
 """
 
@@ -26,10 +30,10 @@ async def start(_, msg):
         ],
         [
           InlineKeyboardButton("𝗗𝗽_𝗰𝗼𝗹𝗹𝗲𝗰𝘁𝗶𝗼𝗻", url="https://t.me/DP_WORLD7"),
-          InlineKeyboardButton("𝙕𝙀𝙐𝙎", url="https://t.me/unbornedvillian"),
+          InlineKeyboardButton("𝗠𝗜𝗰𝗸𝗲𝗬", url="https://t.me/unbornedvillian"),
           ],
                [
-                InlineKeyboardButton("𝗧ᴇᴀᴍ 𝗜ɴᴄʀɪᴄɪʙʟᴇ 𝗕ᴏᴛs", url=f"https://t.me/ll_BOTCHAMBER_ll"),
+                InlineKeyboardButton("тєαм αιмвσт ηєтωσяк", url=f"https://t.me/ll_botchamber_ll"),
 ],
 [
 InlineKeyboardButton("𝗠ᴀɪɴ 𝗕ᴏᴛ", url=f"https://t.me/ZEUS_MUSIC_ROBOT"),
@@ -39,7 +43,7 @@ InlineKeyboardButton("𝗠ᴀɪɴ 𝗕ᴏᴛ", url=f"https://t.me/ZEUS_MUSIC_ROB
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://graph.org/file/82343d78ee04548159967-2e2723755765f6a6d5.jpg",
+        photo="https://envs.sh/nvp.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
